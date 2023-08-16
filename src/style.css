@@ -8,3 +8,23 @@ body {
   margin: 0;
   min-height: 100%;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+}
+nav:first-child {
+  background-color: red;
+}
+nav:nth-child(2) {
+  background-color: green;
+}
+nav li {
+  list-style: none;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
