@@ -14,17 +14,22 @@ header {
 }
 nav ul {
   display: flex;
+  align-items: center;
 }
-nav:first-child {
-  background-color: red;
-}
-nav:nth-child(2) {
-  background-color: green;
+nav {
+  display: flex;
+  align-items: center;
 }
 nav li {
   list-style: none;
+  margin: 0.5rem;
 }
 section {
   display: flex;
   flex-wrap: wrap;
+}
+article ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
 }
