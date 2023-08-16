@@ -11,6 +11,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid gray;
 }
 nav ul {
   display: flex;
@@ -28,8 +29,17 @@ section {
   display: flex;
   flex-wrap: wrap;
 }
+article {
+  margin: 2rem;
+  box-sizing: border-box;
+}
 article ul {
   display: flex;
   list-style: none;
   justify-content: space-between;
+  padding-left: 0;
+}
+img[src*="https://octodex.github.com//images"]
+{
+  border: 1px solid gray;
 }
