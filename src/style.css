@@ -43,3 +43,15 @@ img[src*="https://octodex.github.com//images"]
 {
   border: 1px solid gray;
 }
+a:link,
+a:visited {
+  text-decoration: none;
+}
+a:focus,
+a:hover {
+  text-decoration: underline;
+}
+header a:link,
+header a:visited {
+  color: black;
+}
