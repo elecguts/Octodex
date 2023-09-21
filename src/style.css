@@ -2,11 +2,9 @@
   font: 16px / 1 sans-serif;
 }
 html {
-  height: 100%;
 }
 body {
   margin: 0;
-  min-height: 100%;
 }
 header {
   display: flex;
@@ -30,8 +28,7 @@ section {
   flex-wrap: wrap;
 }
 article {
-  margin: 2rem;
-  box-sizing: border-box;
+  margin: 1rem;
 }
 article ul {
   display: flex;
@@ -41,6 +38,8 @@ article ul {
 }
 img[src*="https://octodex.github.com//images"]
 {
+  width: 100%;
+  height: auto;
   border: 1px solid gray;
 }
 a:link,
@@ -54,4 +53,7 @@ a:hover {
 header a:link,
 header a:visited {
   color: black;
+}
+.rightNav {
+  visibility: hidden;
 }
