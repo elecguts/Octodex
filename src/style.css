@@ -57,6 +57,9 @@ header a:visited {
 .rightNav {
   visibility: hidden;
 }
+.bold {
+  font-weight: bold;
+}
 @media only screen and (min-width: 720px) {
   section {
     display: grid;
