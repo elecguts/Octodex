@@ -1,8 +1,6 @@
 :root {
   font: 16px / 1 sans-serif;
 }
-html {
-}
 body {
   margin: 0;
 }
@@ -30,6 +28,7 @@ section {
 article {
   margin: 1rem;
 }
+
 article ul {
   display: flex;
   list-style: none;
@@ -41,6 +40,7 @@ img[src*="https://octodex.github.com//images"]
   width: 100%;
   height: auto;
   border: 1px solid gray;
+  border-radius: 5%;
 }
 a:link,
 a:visited {
@@ -56,4 +56,23 @@ header a:visited {
 }
 .rightNav {
   visibility: hidden;
+}
+@media only screen and (min-width: 720px) {
+  section {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .rightNav {
+    visibility: visible;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  section {
+    grid-template-columns: auto auto auto;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  section {
+    grid-template-columns: auto auto auto auto;
+  }
 }
